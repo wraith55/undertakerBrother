@@ -1,11 +1,51 @@
+* {
+   box-sizing: border-box;
+}
+
 header {
     display: inline;
 }
-	body {
+body {
 		background-image: url(../images/graveyard.jpg);
 		color: white;
 	}
 	
+.banner h1{
+    text-align: center;
+    margin-top: 0;   
+}
+
+.wrapper {
+    max-width: 1024px;
+    background: #000000;
+    margin: 0 auto; 
+}
+
+.main {
+width: 50%;
+padding: 1%;
+float: left;
+color: red;
+}
+
+.matchquestions {
+color: black;
+background: grey;
+}
+
+.aside {
+width: 50%;
+padding: 1%;
+float: left;
+color: blue;
+}
+
+.footer {
+    clear: both;
+    background: #9f9f9f;
+    text-align: center;
+    padding: .5%;
+}
 	
 @media print {
  
