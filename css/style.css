@@ -21,8 +21,13 @@ body {
     margin: 0 auto; 
 }
 
+.undertaker1 {
+	max-width: 100%;
+	height: auto;
+}
+
 .main {
-width: 50%;
+width: 75%;
 padding: 1%;
 float: left;
 color: red;
@@ -34,7 +39,7 @@ background: grey;
 }
 
 .aside {
-width: 50%;
+width: 25%;
 padding: 1%;
 float: left;
 color: blue;
@@ -46,6 +51,12 @@ color: blue;
     text-align: center;
     padding: .5%;
 }
+
+@media (max-width: 768px) {
+    .main,.aside {
+        float: none;
+        width: auto;
+    }
 	
 @media print {
  
