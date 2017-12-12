@@ -1,3 +1,36 @@
 header {
     display: inline;
 }
+	body {
+		background-image: url(../images/graveyard.jpg);
+		color: white;
+	}
+	
+	
+@media print {
+ 
+	* {
+		color: #000 !important;
+		padding: 0 !important;
+	}
+	
+	:not(table):not(td) {
+        border: 0 !important;
+    }
+   
+ 
+	.banner, .primary-menu, .site-footer{ 
+		display: none;
+	}
+ 
+	body {
+		background: #fff;
+		font-size: 12pt;
+	}
+ 
+	.wrapper, .main, .sidebar {
+		float: none;
+		width: auto;
+	}
+   
+}
