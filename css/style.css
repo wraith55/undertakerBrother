@@ -27,7 +27,7 @@ body {
 }
 
 .main {
-width: 75%;
+width: 65%;
 padding: 1%;
 float: left;
 color: red;
@@ -39,7 +39,7 @@ background: grey;
 }
 
 .aside {
-width: 25%;
+width: 35%;
 padding: 1%;
 float: left;
 color: blue;
@@ -52,7 +52,7 @@ color: blue;
     padding: .5%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 666x) {
     .main,.aside {
         float: none;
         width: auto;
@@ -70,7 +70,7 @@ color: blue;
     }
    
  
-	.banner, .primary-menu, .site-footer{ 
+	.banner, .footer{ 
 		display: none;
 	}
  
@@ -79,7 +79,7 @@ color: blue;
 		font-size: 12pt;
 	}
  
-	.wrapper, .main, .sidebar {
+	.wrapper, .main, .aside {
 		float: none;
 		width: auto;
 	}
