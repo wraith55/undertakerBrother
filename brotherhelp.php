@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+        
 <head>
   <meta charset="utf-8">
   <title>Brotherbrotherbrotherbrother</title>
@@ -7,11 +8,10 @@
   <link rel="stylesheet" href="css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<div class= "hoganbackground">
-<body>
+<body class="hoganbackground">
 <img src="images/brotherhelp.png" alt= "brother help">
 <img src="images/hogangif.gif" class="hogan" alt="Hulkamania brother">
-<audio autoplay  id="hoganTheme" >
+<audio autoplay loop id="hoganTheme" >
     <source src="music/HoganTheme.mp3" >
     Your browser does not support the audio element.
 </audio>
@@ -44,5 +44,4 @@
   </script>  
   
 </body>
-</div>
 
