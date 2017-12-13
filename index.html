@@ -10,17 +10,16 @@
 <body>
 <div class= "wrapper">
 	<header id="undertakerTheme" class="banner">
-	<h1><img class="undertaker2" src= "images/takerlogo.png" alt= "Undertaker Logo" onclick="showScary()">
+	<h1><img class="undertaker2" src= "images/takerlogo.png" id= "takerlogo" alt= "Undertaker Logo" onclick="showScary()">
 	</h1>
 	<h1>The Undertaker
 		<br>
 		<img id="undertakerInvis" src="images/takerscary.jpg" alt= "Scary Undertaker"
 		height="1000" width="1000" style="display: none;" >
-		<img class="undertaker1"  id="undertaker1" src= "images/undertaker1.jpg" alt= "Undertaker Shadow"></h1><br>
-	<audio volume="0.1" autoplay  id="undertakerTheme" class="song">
-			<source src="music/UndertakerTheme2.mp3" >
-			Your browser does not support the audio element.
-	</audio>
+		</h1><br>
+	<audio id="takergong" src="music/undertakergong.mp3">
+  Your browser does not support the <code>audio</code> element.
+</audio>
 	
 	</header>
 	<main class= "main">With a career spanning nearly 30 years, no single individual has made quite the same impact on
@@ -32,7 +31,7 @@
 			has ever seen. Here, we take a brief look at the career of the Dead Man, the Phenom of WWE,
 			the Undertaker.</main>
 		<aside class= "aside">
-		Some other stuff
+		<a href= "http://www.wwe.com/superstars/undertaker"> Click here for the Undertaker's WWE Profile</a><br><a href= "https://en.wikipedia.org/wiki/The_Undertaker"> Click here for the Undertaker's Wikipedia page</a>
 		</aside>
 		<footer class= "footer">
 Rest In Peace
@@ -42,17 +41,19 @@ Rest In Peace
 <script>
 	function showScary() {
 		var scary = document.getElementById('undertakerInvis');
-		var normal = document.getElementById('undertaker1');
+		var normal = document.getElementById('takerlogo');
+		var gong = document.getElementById('takergong');
 		console.log(scary);
 		scary.style="display: inline-block";
 		normal.style="display: none";
 		scary.style.opacity = 1;
 		var fade = setInterval(function() { fadeOut() }, 250);
+		gong.play ();
 	}
 
 	function fadeOut() {
 		var scary = document.getElementById('undertakerInvis');
-		var normal = document.getElementById('undertaker1');
+		var normal = document.getElementById('takerlogo');
 		console.log("opacity: " + scary.style.opacity);
 		if(scary.style.opacity > 0) {
 			scary.style.opacity -= .1;
@@ -63,5 +64,7 @@ Rest In Peace
 			clearInterval();
 		}
 	}
+	
+	
 </script>
 
