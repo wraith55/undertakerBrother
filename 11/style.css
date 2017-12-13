@@ -1,0 +1,85 @@
+* {
+   box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1024px;
+    background: #000000;
+    margin: 0 auto; 
+}
+
+.banner h1{
+    background: #9f9f9f;
+    text-align: center;
+    padding: .5%;
+    margin-top: 0;
+    height: 195px;    
+}
+
+.banner {
+    position: relative;
+}
+
+
+.main {
+width: 50%;
+padding: 1%;
+float: left;
+color: red;
+}
+
+.matchquestions {
+color: black;
+background: grey;
+}
+
+.aside {
+width: 50%;
+padding: 1%;
+float: left;
+color: blue;
+}
+
+.footer {
+    clear: both;
+    background: #9f9f9f;
+    text-align: center;
+    padding: .5%;
+}
+
+.punk {
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    max-width: 20%;
+    height: auto;
+}
+
+.undertaker {
+    position: absolute;
+    top: 5px;
+    right: -35px;
+    max-width: 20%;
+    height: auto;
+}
+
+.punkring {
+    max-width: 100%;
+    height: auto;
+}
+
+.takerentrance {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 512px) {
+    .main,.aside {
+        float: none;
+        width: auto;
+    }
+    .takerentrance {
+        max-width: 200%;
+        
+    }
+ }
