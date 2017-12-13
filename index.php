@@ -36,9 +36,8 @@
 		<footer class= "footer">
 Rest In Peace
 </footer>
-		
-</body>
-<script>
+		</div>
+		<script>
 	function showScary() {
 		var scary = document.getElementById('undertakerInvis');
 		var normal = document.getElementById('takerlogo');
@@ -67,4 +66,6 @@ Rest In Peace
 	
 	
 </script>
+</body>
+
 

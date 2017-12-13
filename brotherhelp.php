@@ -8,21 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+<div class= "hoganbackground">
 <img src="images/brotherhelp.png" alt= "brother help">
 <img src="images/hogangif.gif" class="hogan" alt="Hulkamania brother">
-<audio volume="0.1" autoplay  id="hoganTheme" >
+<audio autoplay  id="hoganTheme" >
     <source src="music/HoganTheme.mp3" >
     Your browser does not support the audio element.
 </audio>
-</body>
-<style>
-    body {
-      background-image: url("images/americanFlag.jpg");
-    }
-    .song {
-      display: block;
-    }
-</style>
+
 <script>
     R=0; 
     x1=.1; 
@@ -49,3 +42,7 @@
     setInterval('A()',50); 
     void(0);
   </script>  
+  </div>
+</body>
+
+

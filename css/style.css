@@ -14,6 +14,9 @@ body {
 display: inline;
 }
 
+.hoganbackground {
+      background-image: url(../images/americanFlag.jpg);
+    }
 
 .menu a {
 color: #fff;
@@ -63,11 +66,12 @@ color: grey;
     padding: .5%;
 }
 
-@media (max-width: 666x) {
+@media (max-width: 666px) {
     .main,.aside {
         float: none;
         width: auto;
     }
+}
 	
 @media print {
  
@@ -81,7 +85,7 @@ color: grey;
     }
    
  
-	.banner, .footer{ 
+	.banner, .primary-menu, .site-footer{ 
 		display: none;
 	}
  
@@ -90,7 +94,7 @@ color: grey;
 		font-size: 12pt;
 	}
  
-	.wrapper, .main, .aside {
+	.wrapper, .main, .sidebar {
 		float: none;
 		width: auto;
 	}
