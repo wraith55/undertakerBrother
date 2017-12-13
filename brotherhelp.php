@@ -7,8 +7,8 @@
   <link rel="stylesheet" href="css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
 <div class= "hoganbackground">
+<body>
 <img src="images/brotherhelp.png" alt= "brother help">
 <img src="images/hogangif.gif" class="hogan" alt="Hulkamania brother">
 <audio autoplay  id="hoganTheme" >
@@ -42,7 +42,7 @@
     setInterval('A()',50); 
     void(0);
   </script>  
-  </div>
+  
 </body>
-
+</div>
 
